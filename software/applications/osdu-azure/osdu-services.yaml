@@ -77,12 +77,6 @@ spec:
         value: "api://"
       - name: REDIS_DATABASE
         value: "2"
-      - name: partition_service_endpoint
-        value: "http://partition/api/partition/v1"
-      - name: service_domain_name
-        value: ""
-      - name: root_data_group_quota
-        value: ""
       - name: azure_msi_client_id
         secret:
           name: active-directory
@@ -151,6 +145,12 @@ spec:
         value: "api://"
       - name: REDIS_DATABASE
         value: "2"
+      - name: partition_service_endpoint
+        value: "http://partition/api/partition/v1"
+      - name: service_domain_name
+        value: ""
+      - name: root_data_group_quota
+        value: ""
       - name: azure_msi_client_id
         secret:
           name: active-directory
